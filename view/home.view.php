@@ -24,17 +24,6 @@
         <header>
         </header>
 
-        <section>
-            
-        </section>
-
-        <script>
-            const menu = document.querySelector(".menu-hamburger");
-            const nav = document.querySelector(".nav-links");
-
-            menu.addEventListener('click', () => {
-                nav.classList.toggle('mobile-menu');
-            });
-        </script>
+        <script type="text/javascript" src="./../assets/js/app.js"></script>
     </body>
 </html>
