@@ -22,8 +22,11 @@
         </nav>
 
         <header>
-
         </header>
+
+        <section>
+            
+        </section>
 
         <script>
             const menu = document.querySelector(".menu-hamburger");
