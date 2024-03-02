@@ -57,6 +57,16 @@ header {
     width: 35px;
 }
 
+.rot-hamburger-f {
+    rotate: 0deg;
+    transition: all 0.5s ease;
+}
+
+.rot-hamburger-t {
+    rotate: 180deg;
+    transition: all 0.5s ease;
+}
+
 @media screen and (max-width: 900px) {
     header {
         background-image: url(../img/home-background-tel.png);
@@ -81,6 +91,7 @@ header {
         position: absolute;
         background-color: rgba(0, 0, 0, 0.42);
         backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
         width: 100%;
         height: 100vh;
         display: flex;

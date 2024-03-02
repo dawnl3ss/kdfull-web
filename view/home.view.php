@@ -12,7 +12,7 @@
     <body>
         <header class="header">
             <nav class="navbar">
-                <img class="menu-hamburger" src="../assets/img/menu-hamburger.png">
+                <img class="menu-hamburger rot-hamburger-f" src="../assets/img/menu-hamburger.png">
                 <div class="nav-links">
                     <ul>
                         <li><a href="/" class="active"> Accueil </a></li>
@@ -30,10 +30,10 @@
             </div>
 
             <div class="main-networks">
+                <a class="net-link" target="_blank" href="https://www.tiktok.com/@kdfull?lang=fr"><i class="fa-brands fa-tiktok fa-3x net-icon"></i></a>
+                <a class="net-link" target="_blank" href="https://www.instagram.com/kdfull_officiel/"><i class="fa-brands fa-instagram fa-3x net-icon"></i></a>
                 <a class="net-link" target="_blank" href="https://www.youtube.com/@sosfibreoptique"><i class="fa-brands fa-youtube fa-3x net-icon"></i></a>
                 <a class="net-link" target="_blank" href="https://www.facebook.com/solutioninformatiquecourtenay"><i class="fa-brands fa-facebook fa-3x net-icon"></i></a>
-                <a class="net-link" target="_blank" href="https://www.instagram.com/kdfull_officiel/"><i class="fa-brands fa-instagram fa-3x net-icon"></i></a>
-                <a class="net-link" target="_blank" href="https://www.tiktok.com/@kdfull?lang=fr"><i class="fa-brands fa-tiktok fa-3x net-icon"></i></a>
             </div>
         </header>
 
