@@ -16,15 +16,15 @@
             <?php require_once "view/part/nav.part.php"; ?>
 
             <div class="main-text">
-                <h1 class="main-title"> SOS Fibre Optique </h1>
+                <h1 class="main-title"> SOS FIBRE OPTIQUE </h1>
                 <p class="main-p"> KD Full </p>
             </div>
 
             <div class="main-networks">
-                <a class="net-link" target="_blank" href="https://www.tiktok.com/@kdfull?lang=fr"><i class="fa-brands fa-tiktok fa-3x net-icon"></i></a>
-                <a class="net-link" target="_blank" href="https://www.instagram.com/kdfull_officiel/"><i class="fa-brands fa-instagram fa-3x net-icon"></i></a>
-                <a class="net-link" target="_blank" href="https://www.youtube.com/@sosfibreoptique"><i class="fa-brands fa-youtube fa-3x net-icon"></i></a>
-                <a class="net-link" target="_blank" href="https://www.facebook.com/solutioninformatiquecourtenay"><i class="fa-brands fa-facebook fa-3x net-icon"></i></a>
+                <a class="net-link" target="_blank" href="https://www.tiktok.com/@kdfull"><i class="fa-brands fa-tiktok fa-4x net-icon"></i></a>
+                <a class="net-link" target="_blank" href="https://www.instagram.com/kdfull_officiel/"><i class="fa-brands fa-instagram fa-4x net-icon"></i></a>
+                <a class="net-link" target="_blank" href="https://www.youtube.com/@sosfibreoptique"><i class="fa-brands fa-youtube fa-4x net-icon"></i></a>
+                <a class="net-link" target="_blank" href="https://www.facebook.com/solutioninformatiquecourtenay"><i class="fa-brands fa-facebook fa-4x net-icon"></i></a>
             </div>
         </header>
 

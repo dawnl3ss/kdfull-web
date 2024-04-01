@@ -18,7 +18,7 @@ class AppController {
          * @route => /tutoriels
          */
         create_route(METHOD_GET, '/tutoriels', function (){
-            echo "page";
+            require_once "view/tuto.view.php";
         });
 
         /**
@@ -26,6 +26,13 @@ class AppController {
          */
         create_route(METHOD_GET, '/reseaux', function (){
             require_once "view/networks.view.php";
+        });
+
+        /**
+         * @route => /posts
+         */
+        create_route(METHOD_GET, '/posts', function (){
+            require_once "view/posts.view.php";
         });
         
         return load_routes();

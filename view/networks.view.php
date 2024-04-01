@@ -14,8 +14,6 @@
     <body>
         <header class="header networks-head">
             <?php require_once "view/part/nav.part.php"; ?>
-
-
         </header>
 
         <div class="page-part">
