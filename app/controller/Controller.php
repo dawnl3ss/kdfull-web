@@ -20,6 +20,13 @@ class AppController {
         create_route(METHOD_GET, '/tutoriels', function (){
             echo "page";
         });
+
+        /**
+         * @route => /reseaux
+         */
+        create_route(METHOD_GET, '/reseaux', function (){
+            require_once "view/networks.view.php";
+        });
         
         return load_routes();
     }

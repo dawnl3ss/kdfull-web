@@ -1,0 +1,62 @@
+.header {
+    background-image: url(../img/home-home.png);
+    width: 100vw;
+    height: 33.5vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.page-part {
+    background-image: url(../img/networks-part.png);
+    width: 100vw;
+    height: 66.5vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.logo {
+    font-size: 3vw;
+    color: white;
+}
+
+.logo:hover {
+    color: #c5c7c5;
+}
+
+.net {
+    transition: .2s ease;
+}
+
+.net:hover {
+    scale: 90%;
+    transition: .2s ease;
+    color: #b0b7b1;
+}
+
+.net-youtube {
+    position: absolute;
+    left: 7.5vw;
+    margin-top: 11.5vh;
+}
+
+
+
+.net-facebook {
+    position: absolute;
+    left: 30vw;
+    margin-top: 45vh;
+}
+
+.net-tiktok {
+    position: absolute;
+    left: 55vw;
+    margin-top: 12vh;
+}
+
+.net-insta {
+    position: absolute;
+    left: 78vw;
+    margin-top: 47.8vh;
+}

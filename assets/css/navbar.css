@@ -1,0 +1,101 @@
+.navbar {
+    position: absolute;
+    width: 100%;
+    padding: 35px;
+    display: flex;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.52);
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar .logo {
+    display: none;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.navbar .nav-links ul {
+    display: flex;
+}
+
+.navbar .nav-links ul li {
+    margin: 8px 40px;
+    font-size: 20px;
+}
+
+.navbar .nav-links ul li.active a {
+    color: #ed3c57;
+    font-weight: 600;
+}
+
+.navbar .menu-hamburger {
+    display: none;
+    top: 50px;
+    right: 50px;
+    width: 35px;
+}
+
+.rot-hamburger-f {
+    rotate: 0deg;
+    transition: all 0.5s ease;
+}
+
+.rot-hamburger-t {
+    rotate: 180deg;
+    transition: all 0.5s ease;
+}
+
+
+@media screen and (max-width: 900px) {
+    .header {
+        background-image: url(../img/home-background-tel.png);
+    }
+
+    .navbar .menu-hamburger {
+        display: block;
+        top: 35px;
+        z-index: 100;
+    }
+
+    .navbar .logo {
+        display: block;
+        position: relative;
+        left: 60%;
+        z-index: 0;
+    }
+
+    .nav-links {
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.42);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+        z-index: 5;
+    }
+
+    .nav-links.mobile-menu {
+        margin-left: 0;
+    }
+
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .nav-links ul li {
+        margin: 25px;
+        font-size: 1.3em;
+    }
+}
