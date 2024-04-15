@@ -1,7 +1,7 @@
 .header {
     background-image: url(../img/home-home.png);
     width: 100vw;
-    height: 33.5vh;
+    height: 30vh;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -10,7 +10,7 @@
 .page-part {
     background-image: url(../img/networks-part.png);
     width: 100vw;
-    height: 66.5vh;
+    height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -46,7 +46,7 @@
 .net-facebook {
     position: absolute;
     left: 30vw;
-    margin-top: 45vh;
+    margin-top: 47.5vh;
 }
 
 .net-tiktok {
@@ -58,5 +58,5 @@
 .net-insta {
     position: absolute;
     left: 78vw;
-    margin-top: 47.8vh;
+    margin-top: 50.5vh;
 }

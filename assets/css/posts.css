@@ -1,16 +1,15 @@
 .header {
     background-image: url(../img/home-home.png);
     width: 100vw;
-    height: 33.5vh;
+    height: 30vh;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
 }
-
 .page-part {
     background: #0F0F08;
     width: 100vw;
-    height: 66.5vh;
+    height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
