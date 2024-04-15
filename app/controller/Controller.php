@@ -18,7 +18,7 @@ class AppController {
          * @route => /tutoriels
          */
         create_route(METHOD_GET, '/tutoriels', function (){
-            require_once "view/tuto.view.php";
+            require_once "view/tutoriels/tuto.view.php";
         });
 
         /**
